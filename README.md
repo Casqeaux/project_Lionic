@@ -1,6 +1,6 @@
 "# project_Lionic" 
 
-Try it here: #
+Try it here: https://casqeaux.github.io/project_Lionic/
 
 Layout layout - "Lionic" using HTML and CSS
 - adhering to the concept of Pixel Perfect
