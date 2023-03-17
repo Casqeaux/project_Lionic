@@ -317,6 +317,72 @@ html {
   color: #787878;
 }
 
+/* Form Section */
+
+.section-form {
+  padding-top: 65px;
+  padding-bottom: 95px;
+  border-bottom: 1px solid #e4e4e4;
+}
+
+.form-title {
+  text-align: center;
+  font-weight: 300;
+  font-size: 36px;
+  line-height: 21px;
+  color: #1c1c1c;
+}
+
+.form-description {
+  font-size: 16px;
+  line-height: 21px;
+  text-align: center;
+  color: #787878;
+}
+
+.form {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 58px;
+}
+
+input,
+.btn-submit {
+  flex: 0 0 calc(25% - 25px);
+  height: 60px;
+  border-radius: 30px;
+}
+
+input {
+  padding: 0 30px;
+  border: 1px solid #dadada;
+  border-radius: 30px;
+}
+
+input::placeholder {
+  color: #787878
+}
+
+.btn-submit {
+  background-color: #3172b9;
+  transition: 0.7s;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 16px;
+  line-height: 21px;
+  border: 1px solid #3172b9
+}
+
+.btn-submit:hover {
+  background-color: #787878;
+  transition: 0.7s;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 16px;
+  line-height: 21px;
+  border: 1px solid #fff
+}
+
 /* Contacts */
 
 .section-contacts {
